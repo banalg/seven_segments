@@ -4,7 +4,7 @@
 // TODO: Put public facing types in this file.
 
 /// Checks if you are awesome. Spoiler: you are.
-class SevenSegment {
+class SevenSegments {
 
   static Map<String, Map<String, bool>> SEGMENTS_MAPPING = const {
     //    A      B      C      D      E      F      G

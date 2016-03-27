@@ -4,7 +4,7 @@
 /// Support for doing something awesome.
 ///
 /// More dartdocs go here.
-library seven_segment;
+library seven_segments;
 
 export 'src/seven_segments_base.dart';
 

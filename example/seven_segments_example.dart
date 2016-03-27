@@ -4,5 +4,5 @@
 import 'package:seven_segment/seven_segments.dart';
 
 main() {
-  bool segment1 = SevenSegment.getMapping('0')[1];
+  bool segment1 = SevenSegments.getMapping('0')[1];
 }
