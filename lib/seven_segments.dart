@@ -6,6 +6,6 @@
 /// More dartdocs go here.
 library seven_segment;
 
-export 'src/seven_segment_base.dart';
+export 'src/seven_segments_base.dart';
 
 // TODO: Export any libraries intended for clients of this package.
