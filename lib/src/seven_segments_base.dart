@@ -181,7 +181,7 @@ class SevenSegments {
     'G': '_'
   };
 
-  static String AsciiSegment(String position, int digitValue) {
+  static String AsciiSegment(String position, String digitValue) {
     if (SEGMENTS_MAPPING[digitValue][position]) {
       return SEGMENT_ASCII[position];
     } else {
@@ -189,7 +189,7 @@ class SevenSegments {
     }
   }
 
-  static List<String> toAsciiArt(int digitValue) {
+  static List<String> toAsciiArt(String digitValue) {
     return [
       ' ' + AsciiSegment('A', digitValue) + ' ' + '\n',
       AsciiSegment('F', digitValue) +
